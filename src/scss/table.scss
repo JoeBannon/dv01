@@ -1,0 +1,22 @@
+@import 'src/scss/mixins/flexbox.scss';
+
+#table {
+    @include flexbox;
+    @include flex-direction(row);
+    @include flex-gap(1rem);
+    @include justify-content(center);
+
+    margin: 0px auto;
+
+    .column {
+        @include flexbox;
+        @include flex-direction(column);
+        @include flex-gap(1rem);
+
+        padding: 10px;
+        text-align: left;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+    }
+}

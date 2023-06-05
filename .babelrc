@@ -1,0 +1,30 @@
+{
+    "presets": [
+        [ 
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry"
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        [ "@babel/plugin-proposal-decorators", {
+            "legacy":true
+        }],
+        [ "@babel/plugin-proposal-class-properties", {
+            "legacy":true,
+            "loose":true
+        }],
+        [ "@babel/plugin-proposal-private-methods", {
+            "loose": true
+        }],
+        [ "@babel/plugin-proposal-private-property-in-object", {
+            "legacy":true,
+            "loose":true
+        }],
+        [ "@babel/plugin-transform-runtime", {
+            "legacy":true
+        }]
+    ]
+}

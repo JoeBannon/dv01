@@ -1,0 +1,12 @@
+@import 'src/scss/mixins/flexbox.scss';
+
+#chassis {
+    #anatomy {
+        @include flexbox;
+        @include flex-direction(column);
+        @include flex-gap(3rem);
+
+        margin: 50px auto;
+        max-width: 600px;
+    }
+}
