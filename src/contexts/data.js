@@ -6,12 +6,12 @@ export const DataContext = createContext();
 DataContext.displayName = 'context / DataContext';
 
 export const DataProvider = (props) => {
-    const [ isPending, starTransition ] = useTransition();
-    const [ data, setData ]             = useState(false);
-    const [ filters, setFilters ]       = useState({});
+    const [ isPending, startTransition ] = useTransition();
+    const [ data, setData ] = useState(false);
+    const [ filters, setFilters ] = useState({});
 
     useEffect(() => {
-        starTransition(() => {
+        startTransition(() => {
             if (data == false) axios.get('/data/data.csv').then((response) => {
                 const parsedData = Papa.parse(response.data, { header: true, dynamicTyping: true });
                 const newData    = Object.values(parsedData.data).sort((a, b) => sorting(a, b));

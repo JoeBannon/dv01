@@ -26,7 +26,6 @@ const Waiting = React.memo((props) => {
     const dataContext = useContext(DataContext);
     return (<Loading isLoading={dataContext.sorted ? false : true} />);
 });
-Waiting.displayName = 'load, waiting';
 
 const Container = React.memo((props) => {
     return (
