@@ -3,7 +3,7 @@
 
 1) Add the Live Server Extension to VS Code.
 2) You can click "Go Live" at the bottom of VS Code, or right click the "public/index.html" file and select "Open with Live Server".
-3) If it doesn't automatically open your browser, you can go to "http://localhost:5502"
+3) If it doesn't automatically open your browser, you can go to "http://localhost:5502" or "http://localhost:5502/index.html"
 
 ### To Build This project
 
