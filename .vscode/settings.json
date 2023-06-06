@@ -2,6 +2,8 @@
     "liveServer.settings.port": 5502,
     "liveServer.settings.ChromeDebuggingAttachment": false,
     "liveServer.settings.host": "localhost",
+    "liveServer.settings.root": "/public",
+    "liveServer.settings.file": "index.html",
     "liveServer.settings.proxy": {
         "enable": false,
         "baseUri": "/",
