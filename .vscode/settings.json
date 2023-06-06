@@ -1,16 +1,16 @@
 {
     "liveServer.settings.port": 5502,
     "liveServer.settings.ChromeDebuggingAttachment": false,
-    "liveServer.settings.host": "dv01.com",
+    "liveServer.settings.host": "localhost",
     "liveServer.settings.proxy": {
         "enable": false,
         "baseUri": "/",
         "proxyUri": "http://127.0.0.1:80"
     },
     "liveServer.settings.https": {
-        "enable": true,
-        "cert": "/Users/Business/Server/dv01.com/.vscode/dv01.com.pem",
-        "key": "/Users/Business/Server/dv01.com/.vscode/dv01.com-key.pem",
+        "enable": false,
+        "cert": "",
+        "key": "",
         "passphrase": ""
     },
     "liveServer.settings.ignoreFiles": [
