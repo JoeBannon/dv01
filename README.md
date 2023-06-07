@@ -7,6 +7,6 @@
 
 ### To Build This project
 
-1) Run "npm install".
+1) Run "npm install", or "npm install --legacy-peer-deps".
 2) Modify webpack.config.mjs, change the src and dist folder paths to this repo.
 3) Run "npm run start", Live Server will update the web page anytime changes are made.
